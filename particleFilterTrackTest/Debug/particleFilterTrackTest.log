@@ -1,0 +1,88 @@
+﻿生成启动时间为 2016/3/17 10:04:00。
+     1>项目“C:\Users\lyy\Desktop\lyy\particleFilterTrackTest\particleFilterTrackTest.vcxproj”在节点 2 上(rebuild 个目标)。
+     1>_PrepareForClean:
+         正在删除文件“.\Debug\particleFilterTrackTest.lastbuildstate”。
+       InitializeBuildStatus:
+         正在对“.\Debug\particleFilterTrackTest.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\GnuWin32\include" /ZI /nologo /W3 /WX- /Od /Oy- /D GSL_DLL /D WIN32 /D _DEBUG /D _CONSOLE /D _VC80_UPGRADE=0x0600 /D GSL_DLL /D _MBCS /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo".\Debug/" /Fd".\Debug/vc100.pdb" /Gd /TP /analyze- /errorReport:prompt observation.cpp particles.cpp track1.cpp utils.cpp /D"GSL_DLL"  /D"GSL_DLL" 
+         utils.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 d:\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(59): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(66): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(67): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(83): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(103): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\utils.cpp(110): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+         track1.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 d:\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(19): warning C4005: “GSL_DLL”: 宏重定义
+                 命令行参数: 参见前面的“GSL_DLL”定义
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(73): warning C4237: 目前还不支持“export”关键字，但已保留该关键字供将来使用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(99): warning C4244: “参数”: 从“time_t”转换到“unsigned long”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(127): warning C4237: 目前还不支持“export”关键字，但已保留该关键字供将来使用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(91): warning C4101: “y”: 未引用的局部变量
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(91): warning C4101: “x”: 未引用的局部变量
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(91): warning C4101: “k”: 未引用的局部变量
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(83): warning C4101: “hsv_ref_imgs”: 未引用的局部变量
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(467): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(371) : 参见“sprintf”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(468): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(105) : 参见“strcpy”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(469): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(470): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\string.h(110) : 参见“strcat”的声明
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\track1.cpp(462): warning C4101: “file”: 未引用的局部变量
+         particles.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 d:\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(45): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(46): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(65): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(66): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(103): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(104): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(106): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(107): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(109): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\particles.cpp(110): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+         observation.cpp
+     1>d:\opencv\build\include\opencv2\flann\logger.h(66): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+     1>d:\opencv\build\include\opencv2\flann\flann.hpp(233): warning C4996: 'cv::flann::Index_<T>': 被声明为已否决
+                 d:\opencv\build\include\opencv2\flann\flann.hpp(278): 参见对正在编译的类 模板 实例化“cv::flann::Index_<T>”的引用
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\observation.cpp(133): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\observation.cpp(167): warning C4244: “return”: 从“double”转换到“float”，可能丢失数据
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\observation.cpp(229): warning C4101: “l2”: 未引用的局部变量
+     1>c:\users\lyy\desktop\lyy\particlefiltertracktest\observation.cpp(269): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program files (x86)\microsoft visual studio 10.0\vc\include\stdio.h(234) : 参见“fopen”的声明
+         正在生成代码...
+       ManifestResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo".\Debug\particleFilterTrackTest.exe.embed.manifest.res" .\Debug\particleFilterTrackTest_manifest.rc 
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:".\Debug/particleFilterTrackTest.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\GnuWin32\lib" cv200.lib cxcore200.lib highgui200.lib libgsl.lib libgslcblas.lib opencv_calib3d231.lib opencv_contrib231.lib opencv_core231.lib opencv_features2d231.lib opencv_flann231.lib opencv_gpu231.lib opencv_highgui231.lib opencv_haartraining_engine.lib opencv_imgproc231.lib opencv_legacy231.lib opencv_ml231.lib opencv_objdetect231.lib opencv_ts231.lib opencv_video231.lib libgsl_d.lib libgslcblas_d.lib libgsl_dll_d.lib libgslcblas_dll_d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:".\Debug\particleFilterTrackTest.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:".\Debug/particleFilterTrackTest.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE:NO /IMPLIB:".\Debug\particleFilterTrackTest.lib" /MACHINE:X86 .\Debug\particleFilterTrackTest.exe.embed.manifest.res
+         .\Debug/observation.obj
+         .\Debug/particles.obj
+         .\Debug/track1.obj
+         .\Debug/utils.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“cv200.lib”
+     1>已完成生成项目“C:\Users\lyy\Desktop\lyy\particleFilterTrackTest\particleFilterTrackTest.vcxproj”(rebuild 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:05.54
